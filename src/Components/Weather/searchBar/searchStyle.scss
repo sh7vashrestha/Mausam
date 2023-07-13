@@ -1,0 +1,31 @@
+.search-bar {
+   display: flex;
+   max-width: 500px;
+   margin: 10px auto;
+   justify-content: space-between;
+
+  .input-field {
+    font-size: 20px;
+    background-color: transparent;
+    height: auto;
+    width: 400px;   
+    padding: 0px;
+    color: #ddd;
+  }
+  .symbol-button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    text-align: center;
+    align-items: right;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      background-color: #444;
+    }
+
+  }
+}

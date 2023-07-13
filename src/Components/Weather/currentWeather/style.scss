@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.current-header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  
+}
+.current-weather {
+  width: auto;
+  max-width: 550px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 50%);
+  color: #ccc;
+  margin: 20px auto 0 auto;
+  padding: 10px 20px 20px 20px;
+  font-stretch: normal;
+  font-style: normal;
+  font-family: 'Agdasima', sans-serif;
+
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+.weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.weather-icon {
+  max-width: 120px;
+  margin: 0px 60px 0px auto;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 10px 0px 10px;
+}
+
+.details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.parameter-row {
+  width: 250px;
+  margin: 2px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.parameter-label-heading{
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.parameter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.parameter-label.top {
+  border-bottom: 1px solid #fff;
+}
