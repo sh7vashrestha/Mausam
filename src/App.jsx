@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home  /> }/>
+        <Route path="/Mausam" element={<Home  /> }/>
       </Routes>
     </BrowserRouter>
     </>
